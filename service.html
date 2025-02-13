@@ -63,59 +63,8 @@
   <!-- End All Js -->
 
 
+  <div id="header-container"></div>
 
-
-  <header class="site-header sofax-header-section site-header--menu-center bg-light" id="sticky-menu">
-    <div class="container">
-      <nav class="navbar site-navbar">
-
-        <div class="brand-logo">
-          <a href="index.html">
-            <img src="assets/images/v5/Logo RM.png" alt="" class="light-version-logo" style="max-width: 90px;">
-          </a>
-        </div>
-
-        <div class="menu-block-wrapper">
-          <div class="menu-overlay"></div>
-          <nav class="menu-block" id="append-menu-header">
-            <div class="mobile-menu-head">
-              <div class="go-back">
-                <i class="fa fa-angle-left"></i>
-              </div>
-              <div class="current-menu-title"></div>
-              <div class="mobile-menu-close">&times;</div>
-            </div>
-            <ul class="site-menu-main">
-              <li class="nav-item nav-item-has-children">
-
-              <li class="nav-item">
-                <a href="about-us.html" class="nav-link-item">A propos</a>
-              </li>
-              <li class="nav-item">
-                <a href="service.html" class="nav-link-item">Nos services</a>
-              </li>
-              <li class="nav-item">
-                <a href="https://www.youtube.com/@AdnAgile-k5w"  target="_blank"  class="nav-link-item" >Notre chaine Youtube</a>
-              </li>
-              <li class="nav-item">
-                <a href="team.html" class="nav-link-item">Témoignages</a>
-              </li>
-          </nav>
-        </div>
-
-        <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-          <a class="sofax-default-btn pill sofax-header-btn" data-text="E-mail" href="mailto:contact@adnagile.com">
-            <span class="button-wraper">Nous contacter</span>
-          </a>
-        </div>
-   
-        <div class="mobile-menu-trigger ">
-          <span></span>
-        </div>
-
-      </nav>
-    </div>
-  </header>
 
 
 
@@ -541,6 +490,14 @@
   <script src="assets/js/SplitText.js"></script>
   <script src="assets/js/gsap-animation.js"></script>
 
+  <script>
+    fetch("header.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("header-container").innerHTML = data;
+      })
+      .catch(error => console.error("Erreur lors du chargement du header :", error));
+  </script>
 
   <!-- <script src="assets/js/scrollsmooth.js"></script> -->
   <script src="assets/js/accordion.js"></script>
