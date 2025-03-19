@@ -1,0 +1,45 @@
+[   {
+    "title": "Pourquoi choisir une agence Partner Zoho pour optimiser votre transformation digitale ?",
+    "image": "assets/images/v5/premium partner.png",
+    "date": "19 mars 2025",
+    "link": "single-blog5.html",
+    "category": "Marketing Digital",
+    "excerpt": "Dans un monde où la digitalisation des entreprises est devenue un enjeu clé, s'entourer des bons outils et des bons partenaires est essentiel."
+},
+    
+{
+    "title": "Campagnes Marketing : Automatisation et Stratégies Multicanales",
+    "image": "assets/images/v5/Zoho marketing.png",
+    "date": "10 mars 2025",
+    "link": "single-blog3.html",
+    "category": "Marketing Digital",
+    "excerpt": "Explorons les campagnes d’e-mails et de SMS ciblées, et les stratégies d’automatisation multicanales..."
+},
+     {
+    "title": "L'Importance de Passer par un Intégrateur Zoho CRM",
+    "image": "assets/images/v5/Editeur-integrateur-ERP.png",
+    "date": "22 février 2025",
+    "link": "single-blog4.html",
+    "category": "CRM",
+    "excerpt": "Pourquoi passer par un intégrateur Zoho CRM est essentiel pour optimiser son utilisation..."
+},
+
+    {
+        "title": "Pourquoi AdnAgile est le Partenaire Idéal pour l’Intégration de Zoho CRM",
+        "image": "assets/images/v5/imagesadn.png",
+        "date": "10 février 2025",
+        "link": "single-blog2.html",
+        "category": "Intégration",
+        "excerpt": "Choisir un CRM est une chose, l’intégrer efficacement dans son organisation en est une autre..."
+    },
+
+
+    {
+        "title": "Les Meilleures Pratiques pour Optimiser Zoho CRM et Maximiser vos Résultats",
+        "image": "assets/images/v5/Comment-utiliser-Zoho-CRM.png",
+        "date": "23 janvier 2025",
+        "link": "single-blog1.html",
+        "category": "Business",
+        "excerpt": "Voici les meilleures pratiques pour optimiser Zoho CRM et améliorer votre productivité..."
+    }
+]
