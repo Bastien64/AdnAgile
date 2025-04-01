@@ -45,4 +45,14 @@
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
     </url>
+        <url>
+        <loc>https://adnagile.com/single-blog6</loc>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+        <url>
+        <loc>https://adnagile.com/single-blog7</loc>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
 </urlset>
